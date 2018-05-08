@@ -1,0 +1,70 @@
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+padding: 0; margin: 0;
+}
+html,body{
+display: block;
+height: 100%; width: 100%;
+overflow: hidden;
+}
+ul,li,a{
+margin: 0; padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+.main ; .main-header ; .main-container ; .main-footer {
+  display: block ;
+  width: 100% ;
+}
+
+img {
+  float:left;
+  height: 150px;
+
+}
+
+.main {
+  height:100px ;
+}
+
+.main-header{
+  height: 150px ;
+  background-color: #B2B2B2 ;
+}
+
+.Presentation {
+  float : center;
+}
+
+.main-header a {
+  float: right;
+  text-align: center;
+  font-size: 25px ;
+  padding: 25px 38px;
+}
+
+.main-container{
+  height:auto ;
+  font-size: 20px;
+  padding: 20px 32px;
+  margin-top: 75px ;
+}
+
+p {
+  margin-bottom: 5px;
+}
+.main-footer{
+  text-align: center;
+  height: 50px;
+  background-color: black;
+  font-size: : 25px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
