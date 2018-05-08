@@ -48,22 +48,28 @@ body{
 .main-header a {
   float: right;
   text-align: center;
-  font-size: 25px ;
+  font-size: 30px ;
   padding: 25px 38px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 80px ;
+  color: black ;
 }
 
 .main-container{
   height:auto ;
   font-size: 20px;
-  margin-top: 75px ;
+  margin-top: 90px ;
+  margin-left: 15px ;
 }
 .container{
   height:auto ;
   font-size: 20px;
   padding: 20px 32px;
-  margin-top: 65px ;
-  background-color: #B2B2B2;
+  margin-top: 55px ;
+  background-color: #D7D9D6;
 }
+
 p {
   margin-bottom: 5px;
 }
