@@ -17,7 +17,7 @@ list-style: none;
 text-decoration: none;
 }
 
-.main ; .main-header ; .main-container ; .main-footer {
+.main ; .main-header ; .main-container ; .container ; .main-footer {
   display: block ;
   width: 100% ;
 }
@@ -37,6 +37,10 @@ img {
   background-color: #B2B2B2 ;
 }
 
+body{
+  overflow: scroll;
+}
+
 .Presentation {
   float : center;
 }
@@ -51,13 +55,45 @@ img {
 .main-container{
   height:auto ;
   font-size: 20px;
-  padding: 20px 32px;
   margin-top: 75px ;
 }
-
+.container{
+  height:auto ;
+  font-size: 20px;
+  padding: 20px 32px;
+  margin-top: 65px ;
+  background-color: #B2B2B2;
+}
 p {
   margin-bottom: 5px;
 }
+
+.cssform p{
+width: 300px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 155px;
+border-top: 1px ;
+height: 1%;
+}
+
+.cssform label{
+font-weight: bold;
+float: left;
+margin-left: -155px;
+width: 150px;
+}
+
+.cssform input{
+width: 100px;
+}
+
+.cssform textarea{
+width: 200px;
+height: 150px;
+}
+
 .main-footer{
   text-align: center;
   height: 50px;
@@ -65,6 +101,5 @@ p {
   font-size: : 25px;
   color: white;
   padding-top: 15px;
-  padding-left: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
