@@ -24,8 +24,7 @@ text-decoration: none;
 
 img {
   float:left;
-  height: 150px;
-
+  height: 130px;
 }
 
 .main {
@@ -35,38 +34,79 @@ img {
 .main-header{
   height: 150px ;
   background-color: #B2B2B2 ;
+  position: fixed;
+  width: 98.7%;
+  border-top: 15px solid white ;
+  border-bottom: 5px solid white ;
 }
 
+p a{
+  color: #9C9B97 ;
+  text-decoration: underline;
+  font-weight: bold;
+}
 body{
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.Presentation {
-  float : center;
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
 }
 
 .main-header a {
   float: right;
   text-align: center;
-  font-size: 30px ;
+  font-size: 36px ;
   padding: 25px 38px;
   font-weight: bold;
-  text-decoration: underline;
-  margin-top: 80px ;
+  margin-top: 45px ;
   color: black ;
+  text-decoration: underline;
+}
+
+.main-header a:hover {
+  color: white ;
+}
+
+ul li a{
+  float: right;
 }
 
 .main-container{
   height:auto ;
-  font-size: 20px;
-  margin-top: 90px ;
+  font-size: 21px;
+  margin-top: 75px ;
   margin-left: 15px ;
 }
+
+h2{
+  margin-top: 13px;
+}
+
+.mario{
+  height: 63px;
+  margin-top: 10px ;
+  animation-name: drive ;
+  animation-duration: 20s ;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes drive {
+  from{ transform: translateX(-100PX)}
+  to{ transform: translateX(1450px)}
+}
+
 .container{
   height:auto ;
   font-size: 20px;
   padding: 20px 32px;
-  margin-top: 55px ;
+  margin-top: 60px ;
   background-color: #D7D9D6;
 }
 
