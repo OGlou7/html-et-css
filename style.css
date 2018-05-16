@@ -40,11 +40,20 @@ img {
   border-bottom: 5px solid white ;
 }
 
+h1{
+  margin-bottom: 10px ;
+}
+
 p a{
   color: #9C9B97 ;
   text-decoration: underline;
   font-weight: bold;
 }
+
+p a:hover{
+  color: #D6D6D0 ;
+}
+
 body{
   overflow-y: scroll;
   overflow-x: hidden;
@@ -55,6 +64,10 @@ a.anchor {
     position: relative;
     top: -145px;
     visibility: hidden;
+}
+
+a:hover{
+  cursor:crosshair;
 }
 
 .main-header a {
@@ -84,7 +97,7 @@ ul li a{
 }
 
 h2{
-  margin-top: 13px;
+  margin-top: 20px;
 }
 
 .mario{
