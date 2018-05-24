@@ -38,7 +38,7 @@ img {
   width: 100%;
   border-top: 15px solid white ;
   border-bottom: 5px solid white ;
-  transition: top 0.3s;
+  transition: top 1.8s;
 }
 
 .bar{
@@ -106,7 +106,7 @@ a.anchor {
 
 h1{
   margin-left: 20px;
-    margin-bottom: 12px ;
+  margin-bottom: 12px ;
 }
 
 .main-container{
